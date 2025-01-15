@@ -1,0 +1,32 @@
+# API服务配置
+api_server:
+  host: "0.0.0.0"
+  port: 5555
+  base_url: "http://localhost:5555"
+  debug: false # 默认关闭debug模式
+
+# TTS平台配置
+platforms:
+  # 海豚Ai配音，地址：https://www.ttson.cn/
+  ttson:
+    base_url: "https://ht.ttson.cn:37284"
+    token: "your_token_here"
+    network_proxies:
+      http: null
+      https: null
+
+  # TTS-Online，实际也是海豚Ai的，地址：https://acgn.ttson.cn/
+  acgn_ttson:
+    base_url: "https://ht.ttson.cn:37284"
+    token: "your_token_here"
+    network_proxies:
+      http: null
+      https: null
+
+  # Fish Audio，地址：https://fish.audio/
+  fish_audio:
+    base_url: "https://api.fish.audio"
+    token: "your_token_here"
+    network_proxies:
+      http: "http://127.0.0.1:7890"
+      https: "http://127.0.0.1:7890"
