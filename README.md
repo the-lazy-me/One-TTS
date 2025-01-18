@@ -6,7 +6,7 @@
 
 1. 克隆项目：
 ```bash
-git clone [<repository_url>](https://github.com/the-lazy-me/One-TTS.git)
+git clone https://github.com/the-lazy-me/One-TTS.git
 cd One-TTS
 ```
 
