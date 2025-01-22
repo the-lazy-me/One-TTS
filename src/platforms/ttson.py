@@ -50,7 +50,7 @@ class Ttson(TTSPlatform):
         payload = {
             "voice_id": voice_id,
             "text": text,
-            "to_lang": kwargs.get('to_lang', 'ZH'),
+            "to_lang": kwargs.get('to_lang', 'auto'),
             "format": "wav",
             "speed_factor": kwargs.get('speed_factor', 1),
             "pitch_factor": kwargs.get('pitch_factor', 0),

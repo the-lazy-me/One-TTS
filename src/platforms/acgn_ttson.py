@@ -66,7 +66,7 @@ class ACGNTtson(TTSPlatform):
             "voice_id": voice_id,
             "text": text,
             "format": "wav",
-            "to_lang": kwargs.get('to_lang', 'ZH'),
+            "to_lang": kwargs.get('to_lang', 'auto'),
             "auto_translate": kwargs.get('auto_translate', 0),
             "voice_speed": kwargs.get('voice_speed', '0%'),
             "speed_factor": kwargs.get('speed_factor', 1),
