@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  one-tts-api:
+    build: .
+    ports:
+      - "${API_PORT:-5555}:5555"
+    volumes:
+      - ./docker/.env.prod:/app/docker/.env.prod
+    restart: unless-stopped 
