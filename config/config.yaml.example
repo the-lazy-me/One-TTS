@@ -10,23 +10,23 @@ platforms:
   # 海豚Ai配音，地址：https://www.ttson.cn/
   ttson:
     base_url: "https://u95167-bd74-2aef8085.westx.seetacloud.com:8443"
-    token: "your_token_here"
+    token: "your_token_here"  # 在实际配置文件中替换为你的token
     network_proxies:
       http: null
       https: null
 
-  # TTS-Online，实际也是海豚Ai的，地址：https://acgn.ttson.cn/
+  # TTS-Online配置
   acgn_ttson:
     base_url: "https://u95167-bd74-2aef8085.westx.seetacloud.com:8443"
-    token: "your_token_here"
+    token: "your_token_here"  # 在实际配置文件中替换为你的token
     network_proxies:
       http: null
       https: null
 
-  # Fish Audio，地址：https://fish.audio/
+  # Fish Audio配置
   fish_audio:
     base_url: "https://api.fish.audio"
-    token: "your_token_here"
+    token: "your_token_here"  # 在实际配置文件中替换为你的token
     network_proxies:
       http: "http://127.0.0.1:7890"
-      https: "http://127.0.0.1:7890"
+      https: "http://127.0.0.1:7890" 
