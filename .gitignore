@@ -1,7 +1,3 @@
-# 忽略实际配置文件，但保留示例配置
-config/config.yaml
-!config/config.yaml.example 
-
 # Python
 __pycache__/
 *.py[cod]
