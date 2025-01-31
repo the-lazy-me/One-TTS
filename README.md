@@ -68,3 +68,7 @@ python main.py
 - [ ] 支持[ChatTTS](https://github.com/2noise/ChatTTS)
 - [ ] 支持[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 - [ ] 支持[Kokoro TTS](https://kokorotts.net/zh)
+
+## 配置说明
+
+1. 复制示例配置文件：
